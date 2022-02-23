@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T19:51:31 IST" name="Suite" finished-at="2022-02-22T19:51:43 IST" duration-ms="11725">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T19:51:31 IST" name="Test" finished-at="2022-02-22T19:51:43 IST" duration-ms="11725">
+      <class name="com.qa.demo.Test.NinjaTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.demo.Test.NinjaTest@3232a28a]" started-at="2022-02-22T19:51:31 IST" name="setup" finished-at="2022-02-22T19:51:36 IST" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.demo.Test.NinjaTest@3232a28a]" started-at="2022-02-22T19:51:36 IST" name="test" finished-at="2022-02-22T19:51:42 IST" duration-ms="5995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Your Store]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhuvana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ramasamy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iop@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Atmosol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.demo.Test.NinjaTest@3232a28a]" started-at="2022-02-22T19:51:42 IST" name="closeBrowser" finished-at="2022-02-22T19:51:43 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.demo.Test.NinjaTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

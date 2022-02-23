@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstName" value="Bhuvana"/>
+    <parameter name="lastName" value="Ramasamy"/>
+    <parameter name="password" value="Test"/>
+    <parameter name="telephoneNum" value="123456789"/>
+    <parameter name="pageTitle" value="Your Store"/>
+    <parameter name="newPassword" value="Atmosol"/>
+    <parameter name="email" value="xyz@gmail.com"/>
+    <classes>
+      <class name="com.qa.demo.Test.NinjaTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.demo.Test.NinjaTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
